@@ -12,7 +12,7 @@ public struct BottomSheetView<Header: View, Content: View, PositionEnum: RawRepr
     let content: Content
     let frameHeight: CGFloat
     
-    private var AnimationModel: BottomSheet.AnimationModel = BottomSheet.AnimationModel(
+    private var AnimationModel: BottomSheetWain.AnimationModel = BottomSheetWain.AnimationModel(
         mass: BottomSheetDefaults.Animation.mass,
         stiffness: BottomSheetDefaults.Animation.stiffness,
         damping: BottomSheetDefaults.Animation.damping
@@ -110,7 +110,7 @@ public struct BottomSheetView<Header: View, Content: View, PositionEnum: RawRepr
 extension BottomSheetView {
     public func animationCurve(mass: Double = 1.2, stiffness: Double = 200, damping: Double = 25) -> BottomSheetView {
         var bottomSheetView = self
-        bottomSheetView.AnimationModel = BottomSheet.AnimationModel(
+        bottomSheetView.AnimationModel = BottomSheetWain.AnimationModel(
             mass: mass,
             stiffness: stiffness,
             damping: damping

@@ -1,5 +1,5 @@
 import XCTest
-@testable import BottomSheet
+@testable import BottomSheetWain
 
 final class BottomSheetTests: XCTestCase {
     func testExample() throws {

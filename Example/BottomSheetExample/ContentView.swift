@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import BottomSheet
+import BottomSheetWain
 
 enum BottomSheetAbsolutePosition: CGFloat, CaseIterable {
     case bottom = 182

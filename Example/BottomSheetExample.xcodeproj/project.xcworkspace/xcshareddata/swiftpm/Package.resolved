@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "BottomSheet",
-        "repositoryURL": "https://github.com/Wouter125/BottomSheet",
-        "state": {
-          "branch": null,
-          "revision": "114d197781d32917fe61d547eb36c6783efd6843",
-          "version": "1.4.0"
-        }
+  "pins" : [
+    {
+      "identity" : "bottomsheetwain",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/subin-qmic/BottomSheetWain",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e04ec6e8ae3864b8714a40cde4ce204e89409a66"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }

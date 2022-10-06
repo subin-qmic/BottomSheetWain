@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C0B59F127DAB989006D979A /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 6C0B59F027DAB989006D979A /* BottomSheet */; };
+		649ACD6B28EF0A9900762802 /* BottomSheetWain in Frameworks */ = {isa = PBXBuildFile; productRef = 649ACD6A28EF0A9900762802 /* BottomSheetWain */; };
 		6C0BD46D27DA862D000AF3CD /* BottomSheetExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BD46C27DA862D000AF3CD /* BottomSheetExampleApp.swift */; };
 		6C0BD46F27DA862D000AF3CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BD46E27DA862D000AF3CD /* ContentView.swift */; };
 		6C0BD47127DA862D000AF3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BD47027DA862D000AF3CD /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C0B59F127DAB989006D979A /* BottomSheet in Frameworks */,
+				649ACD6B28EF0A9900762802 /* BottomSheetWain in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +108,7 @@
 			);
 			name = BottomSheetExample;
 			packageProductDependencies = (
-				6C0B59F027DAB989006D979A /* BottomSheet */,
+				649ACD6A28EF0A9900762802 /* BottomSheetWain */,
 			);
 			productName = BottomSheetExample;
 			productReference = 6C0BD46927DA862D000AF3CD /* BottomSheetExample.app */;
@@ -139,7 +139,7 @@
 			);
 			mainGroup = 6C0BD46027DA862C000AF3CD;
 			packageReferences = (
-				6C0B59EF27DAB989006D979A /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				649ACD6928EF0A9900762802 /* XCRemoteSwiftPackageReference "BottomSheetWain" */,
 			);
 			productRefGroup = 6C0BD46A27DA862D000AF3CD /* Products */;
 			projectDirPath = "";
@@ -301,7 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BottomSheetExample/Preview Content\"";
-				DEVELOPMENT_TEAM = JU6AZT44CN;
+				DEVELOPMENT_TEAM = 742ZEU3W29;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -332,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BottomSheetExample/Preview Content\"";
-				DEVELOPMENT_TEAM = JU6AZT44CN;
+				DEVELOPMENT_TEAM = 742ZEU3W29;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -379,21 +379,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6C0B59EF27DAB989006D979A /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+		649ACD6928EF0A9900762802 /* XCRemoteSwiftPackageReference "BottomSheetWain" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Wouter125/BottomSheet";
+			repositoryURL = "https://github.com/subin-qmic/BottomSheetWain";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6C0B59F027DAB989006D979A /* BottomSheet */ = {
+		649ACD6A28EF0A9900762802 /* BottomSheetWain */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6C0B59EF27DAB989006D979A /* XCRemoteSwiftPackageReference "BottomSheet" */;
-			productName = BottomSheet;
+			package = 649ACD6928EF0A9900762802 /* XCRemoteSwiftPackageReference "BottomSheetWain" */;
+			productName = BottomSheetWain;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
